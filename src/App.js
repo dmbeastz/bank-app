@@ -2,7 +2,7 @@ import TransactionTable from './components/TransactionsTable';
 import TransactionForm from './components/TransactionForm';
 import { useState, useEffect  } from 'react';
 
-const API_URL = ' http://localhost:3000/transactions';
+const API_URL = 'https://my-json-server.typicode.com/dmbeastz/bank-app/transactions';
 function App() {
   const [transactions, setTransactions ] = useState ([]);
   const [searchTerm, setSearchTerm] = useState('');
